@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Mono|Muli);
+@import url(https://fonts.googleapis.com/css?family=Kanit&subset=thai,latin);
+body {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    padding: 50px;
+}
+fieldset {
+    padding: 10px;
+}
+legend {
+    font-family: "Space Mono", monospace;
+    font-size: 25px;
+}
+#submit {
+    font-size: 15px;
+    font-family: "Space Mono", monospace;
+    width: 150px;
+    border-radius: 15px;
+}
