@@ -1,6 +1,8 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
     <title>Register Library Membership</title>
+    <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
     <form>
@@ -18,13 +20,13 @@
             <br><br>
 
             <label for="gender">Gender :</label>
-                <input type="radio" name="gender" value="male">
+                <input type="radio" name="gender" id="gender" value="male">
                 <label for="male">Male</label>
-                <input type="radio" name="gender" value="female">
+                <input type="radio" name="gender" id="gender" value="female">
                 <label for="female">Female</label>
-                <input type="radio" name="gender" value="lgbtqia+">
+                <input type="radio" name="gender" id="gender" value="lgbtqia+">
                 <label for="lgbtqia+">LGBTQIA+</label>
-                <input type="radio" name="gender" value="not mention">
+                <input type="radio" name="gender" id="gender" value="not mention">
                 <label for="not mention">Prefer not to say</label>
 
             <br><br>
@@ -88,53 +90,53 @@
 
         <br>
 
-        <fieldset> <!--interesting-->
-            <legend>Interesting</legend>
+        <fieldset> <!--more information-->
+            <legend>More Information</legend>
 
             <p>What kind of book do you prefer?</p>
 
             <!--kind of book-->
-            <input type="checkbox" name="kind" value="novel">
+            <input type="checkbox" name="kind" id="novel" value="novel">
             <label for="novel">Novel</label>
-            <input type="checkbox" name="kind" value="manga">
+            <input type="checkbox" name="kind" id="manga" value="manga">
             <label for="manga">Manga</label>
-            <input type="checkbox" name="kind" value="magazine">
+            <input type="checkbox" name="kind" id="magazine" value="magazine">
             <label for="magazine">Magazine</label>
             <br>
-            <input type="checkbox" name="kind" value="historical">
+            <input type="checkbox" name="kind" id="historical" value="historical">
             <label for="historical">Historical</label>
-            <input type="checkbox" name="kind" value="biography">
+            <input type="checkbox" name="kind" id="biography" value="biography">
             <label for="biography">Biography</label>
-            <input type="checkbox" name="kind" value="self help">
-            <label for="self help">Self-help</label>
+            <input type="checkbox" name="kind" id="self-help" value="self-help">
+            <label for="self-help">Self-help</label>
             <br>
-            <input type="checkbox" name="kind" value="business">
+            <input type="checkbox" name="kind" id="business" value="business">
             <label for="business">Business</label>
-            <input type="checkbox" name="kind" value="travel">
+            <input type="checkbox" name="kind" id="travel" value="travel">
             <label for="travel">Travel</label>
-            <input type="checkbox" name="kind" value="poetry">
+            <input type="checkbox" name="kind" id="poetry" value="poetry">
             <label for="poetry">Poetry</label>
             <br>
-            <input type="checkbox" name="kind" value="news">
+            <input type="checkbox" name="kind" id="news" value="news">
             <label for="news">News</label>
-            <input type="checkbox" name="kind" value="other">
+            <input type="checkbox" name="kind" id="other" value="other">
             <label for="other">Other</label>
 
             <p>How many books do you read per month?</p>
 
-            <input type="radio" name="many" value="1-2">
-            <label for="many">1-2 books</label>
-            <input type="radio" name="many" value="3-4">
-            <label for="many">3-4 books</label>
-            <input type="radio" name="many" value="5">
-            <label for="many">5 books or more</label>
+            <input type="radio" name="many" id="1-2" value="1-2">
+            <label for="1-2">1 - 2 books</label>
+            <input type="radio" name="many" id="3-4" value="3-4">
+            <label for="3-4">3 - 4 books</label>
+            <input type="radio" name="many" id="5" value="5">
+            <label for="5">5 books or more</label>
 
             <p>Would you like to receive library information via E-mail?</p>
 
-            <input type="radio" name="receive" value="yes">
-            <label for="receive">Yes</label>
-            <input type="radio" name="receive" value="no">
-            <label for="receive">No</label>
+            <input type="radio" name="receive" id="yes" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="receive" id="no" value="no">
+            <label for="no">No</label>
         </fieldset>
 
         <br>
